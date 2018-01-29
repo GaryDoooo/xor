@@ -37,10 +37,10 @@ def xor(orig, key):
 
 
 def main():
-    orig = input("input the string want to convert:")
-    key = input("input the convert key:")
+    orig = input("input the string want to convert: ")
+    key = input("input the convert key: ")
     # print(sxor(orig, key))
-    print(xor(orig, key))
+    print("\n" + xor(orig, key) + "\n")
 
 
 if __name__ == "__main__":
